@@ -9,15 +9,15 @@
 		<Console name="Console-Appender" target="SYSTEM_OUT">
 			<PatternLayout>
 				<pattern>
-					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+					%d{yyyy-MM-dd HH:mm:ss.SSS} - [%-5level]- [%t] %c{1} - %msg%n
 				</pattern>
 				>
 			</PatternLayout>
 		</Console>
-		<File name="File-Appender" fileName="${log-path}/restexample.log">
+		<File name="File-Appender" fileName="${log-path}/rest-examples.log">
 			<PatternLayout>
 				<pattern>
-					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+					%d{yyyy-MM-dd HH:mm:ss.SSS} - [%-5level]- [%t] %c{1} - %msg%n
 				</pattern>
 			</PatternLayout>
 		</File>
