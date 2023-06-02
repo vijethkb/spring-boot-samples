@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.demo.springboot.pojo.Identity;
 
 @RestController
-public class VersionCtrl {
+public class VersionCtrlr {
 	
 	Logger logger = LogManager.getLogger();
 	

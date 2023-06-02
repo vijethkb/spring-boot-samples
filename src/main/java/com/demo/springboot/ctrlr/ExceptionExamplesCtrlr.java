@@ -8,7 +8,6 @@ import java.util.Map;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,7 +21,7 @@ import com.demo.springboot.pojo.Identity;
 import com.demo.springboot.val.BookValidator;
 
 @RestController
-public class ExceptionExamplesCtrl {
+public class ExceptionExamplesCtrlr {
 	Logger logger = LogManager.getLogger();
 	
 	List<Identity> books = new ArrayList<>();
